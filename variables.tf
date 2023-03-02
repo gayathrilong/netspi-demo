@@ -1,0 +1,10 @@
+variable "key_name" { default = "test" }
+variable "region" { default = "us-east-2" }
+variable "availability_zone" { default = "us-east-2a" }
+variable "bucket_name" { default = "my-test-spi-bucket" }
+variable "instance_size" { default = "t2.micro" }
+variable "instance_security_group_name" { default = "spi_allow" }
+variable "efs_security_group_name" { default = "efs_allow" }
+variable "ami_id" { default = "ami-0f3c9c466bb525749" }
+variable "vpc_cidr" {default = "192.168.0.0/23" }
+variable "subnet_cidr" { default = "192.168.0.0/24" }
